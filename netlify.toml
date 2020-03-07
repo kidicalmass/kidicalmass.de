@@ -1,3 +1,3 @@
 [build]
-command = "yarn src:build"
+command = "yarn src:build && cp _redirects src/.vuepress/dist/"
 publish = "src/.vuepress/dist"
