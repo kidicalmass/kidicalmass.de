@@ -1,2 +1,5 @@
+# Netlify does not support 303 and 307 redirects.
+# See https://github.com/netlify/netlify-playground/issues/35
+
 https://www.kidicalmass.de/* https://kidicalmass.de/:splat 302!
 https://kidicalmass.netlify.com/* https://kidicalmass.de/:splat 302!
